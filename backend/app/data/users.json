@@ -1,0 +1,22 @@
+[
+    {
+        "id": "user_001",
+        "name": "Alice Walker",
+        "email": "alice@example.com",
+        "role": "customer",
+        "preferences": {
+            "style": "technical",
+            "sizes": {
+                "top": "M",
+                "shoe": "8"
+            }
+        }
+    },
+    {
+        "id": "user_admin",
+        "name": "Admin User",
+        "email": "admin@ecommerce.com",
+        "role": "admin",
+        "preferences": {}
+    }
+]

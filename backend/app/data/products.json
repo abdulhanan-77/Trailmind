@@ -1,0 +1,1072 @@
+[
+  {
+    "id": "prod_003",
+    "name": "TrailBlazer Pro Boots",
+    "slug": "trailblazer-pro-boots",
+    "description": "Conquer any terrain with Vibram soles and Gore-Tex lining. Lightweight yet durable, these boots provide ankle support without the weight.",
+    "price": 129.99,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 89,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Gore-Tex Lining",
+      "Vibram MegaGrip",
+      "EVA Midsole",
+      "Reinforced Toe"
+    ],
+    "rating": 4.8,
+    "reviews_count": 210,
+    "model_3d_url": "http://localhost:8000/static/models/model.glb",
+    "spatial_metadata": {
+      "width_cm": 30,
+      "height_cm": 18,
+      "depth_cm": 12,
+      "weight_kg": 0.45,
+      "materials": [
+        "Gore-Tex",
+        "Vibram Rubber",
+        "EVA Foam"
+      ],
+      "bounding_box": {
+        "x": 0.30,
+        "y": 0.18,
+        "z": 0.12
+      }
+    }
+  },
+  {
+    "id": "prod_001",
+    "name": "Alpine Explorer Jacket",
+    "slug": "alpine-explorer-jacket",
+    "description": "Designed for the extreme. Waterproof, breathable, and insulated with our proprietary thermal tech. Features a RECCO reflector system for safety and articulated sleeves for maximum mobility.",
+    "price": 249.99,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 42,
+    "images": [
+      "https://images.unsplash.com/photo-1551028919-ac7bcb81d8b9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Waterproof 20,000mm",
+      "Breathable",
+      "RECCO Reflector",
+      "Helmet Compatible Hood"
+    ],
+    "rating": 4.9,
+    "reviews_count": 128
+  },
+  {
+    "id": "prod_002",
+    "name": "Lumina Smart Watch",
+    "slug": "lumina-smart-watch",
+    "description": "Track your altitude, heart rate, and GPS location with military-grade precision. Includes a titanium case and sapphire crystal display for rugged durability.",
+    "price": 299.0,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 15,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "GPS + GLONASS",
+      "Heart Rate Monitor",
+      "100m Water Resistance",
+      "Sapphire Crystal"
+    ],
+    "rating": 4.7,
+    "reviews_count": 86
+  },
+  {
+    "id": "prod_004",
+    "name": "Urban Commuter Pack",
+    "slug": "urban-commuter-pack",
+    "description": "Sleek, water-resistant daypack with a dedicated laptop sleeve and anti-theft compartments. Perfect for the city dweller who escapes to nature on weekends.",
+    "price": 89.99,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 120,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622560419077-6235b211470c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Water Resistant",
+      "15-inch Laptop Sleeve",
+      "Anti-theft Zippers",
+      "20L Capacity"
+    ],
+    "rating": 4.6,
+    "reviews_count": 45
+  },
+  {
+    "id": "prod_005",
+    "name": "Nordic Wool Sweater",
+    "slug": "nordic-wool-sweater",
+    "description": "Hand-knit from 100% merino wool. Perfect for chilly evenings by the campfire or layering under a shell.",
+    "price": 159.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 8,
+    "images": [
+      "https://images.unsplash.com/photo-1620799140408-ed5341cd2431?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "100% Merino Wool",
+      "Odor Resistant",
+      "Temperature Regulating"
+    ],
+    "rating": 4.9,
+    "reviews_count": 32
+  },
+  {
+    "id": "prod_006",
+    "name": "Carbon Trekking Poles",
+    "slug": "carbon-trekking-poles",
+    "description": "Ultralight carbon fiber poles. Collapsible design fits easily into any backpack. Cork handles for moisture management.",
+    "price": 79.5,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 65,
+    "images": [
+      "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Carbon Fiber Shaft",
+      "Cork Grips",
+      "Tungsten Tips",
+      "Collapsible"
+    ],
+    "rating": 4.5,
+    "reviews_count": 78
+  },
+  {
+    "id": "prod_007",
+    "name": "Alpine Speaker",
+    "slug": "alpine-speaker",
+    "description": "Portable Bluetooth speaker engineered for outdoor adventures. Waterproof, dustproof, and shockproof with 20-hour battery life.",
+    "price": 115.3,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 27,
+    "images": [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "IP67 Waterproof",
+      "20hr Battery",
+      "Bluetooth 5.0",
+      "360° Sound"
+    ],
+    "rating": 4.6,
+    "reviews_count": 257
+  },
+  {
+    "id": "prod_008",
+    "name": "Glacial Rain Shell",
+    "slug": "glacial-rain-shell",
+    "description": "Ultra-lightweight packable rain jacket with fully taped seams. Perfect for unexpected weather on the trail.",
+    "price": 189.99,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 17,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Packable Design",
+      "Taped Seams",
+      "Adjustable Hood",
+      "Pit Zips"
+    ],
+    "rating": 4.8,
+    "reviews_count": 338
+  },
+  {
+    "id": "prod_009",
+    "name": "Lunar Headlamp",
+    "slug": "lunar-headlamp",
+    "description": "Rechargeable headlamp with 600 lumens output and red night vision mode. Essential for night hiking and camping.",
+    "price": 59.99,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 24,
+    "images": [
+      "https://images.unsplash.com/photo-1590479773265-7464e5d48118?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "600 Lumens",
+      "USB Rechargeable",
+      "Red Light Mode",
+      "IPX5 Rated"
+    ],
+    "rating": 4.5,
+    "reviews_count": 472
+  },
+  {
+    "id": "prod_010",
+    "name": "Aero Backpack",
+    "slug": "aero-backpack",
+    "description": "40L hiking backpack with ventilated back panel and rain cover. Multiple compartments for organized packing.",
+    "price": 163.75,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 23,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "40L Capacity",
+      "Rain Cover Included",
+      "Ventilated Back",
+      "Hip Belt Pockets"
+    ],
+    "rating": 4.5,
+    "reviews_count": 307
+  },
+  {
+    "id": "prod_011",
+    "name": "Stellar Approach Shoes",
+    "slug": "stellar-approach-shoes",
+    "description": "Technical approach shoes with sticky rubber soles. Perfect for scrambling and via ferrata.",
+    "price": 169.0,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 31,
+    "images": [
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Stealth Rubber",
+      "Precision Lacing",
+      "Toe Protection",
+      "Breathable Upper"
+    ],
+    "rating": 4.1,
+    "reviews_count": 381
+  },
+  {
+    "id": "prod_012",
+    "name": "Quantum Gloves",
+    "slug": "quantum-gloves",
+    "description": "Touchscreen-compatible insulated gloves with grip palms. Versatile for skiing, hiking, and everyday winter use.",
+    "price": 49.99,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 88,
+    "images": [
+      "https://images.unsplash.com/photo-1520590979760-e69844fe8388?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Touchscreen Compatible",
+      "PrimaLoft Insulation",
+      "Grip Palms",
+      "Wrist Leash"
+    ],
+    "rating": 4.1,
+    "reviews_count": 258
+  },
+  {
+    "id": "prod_013",
+    "name": "Solar Gaiters",
+    "slug": "solar-gaiters",
+    "description": "Waterproof gaiters to keep snow, mud, and debris out of your boots. Essential for deep snow and wet conditions.",
+    "price": 42.52,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 80,
+    "images": [
+      "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Waterproof Fabric",
+      "Boot Hook",
+      "Adjustable Fit",
+      "Reinforced Base"
+    ],
+    "rating": 4.7,
+    "reviews_count": 307
+  },
+  {
+    "id": "prod_014",
+    "name": "Carbon Trail Runners",
+    "slug": "carbon-trail-runners",
+    "description": "Lightweight trail running shoes with responsive cushioning and aggressive tread for technical terrain.",
+    "price": 137.85,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 57,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Carbon Plate",
+      "Vibram Outsole",
+      "Rock Plate",
+      "Quick-Lace System"
+    ],
+    "rating": 4.6,
+    "reviews_count": 274
+  },
+  {
+    "id": "prod_015",
+    "name": "Nomad GPS Tracker",
+    "slug": "nomad-gps-tracker",
+    "description": "Satellite messenger with SOS capability and GPS tracking. Stay connected even off the grid.",
+    "price": 349.0,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 61,
+    "images": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Satellite SOS",
+      "GPS Tracking",
+      "2-Way Messaging",
+      "Weather Alerts"
+    ],
+    "rating": 5.0,
+    "reviews_count": 477
+  },
+  {
+    "id": "prod_016",
+    "name": "Quantum Power Bank",
+    "slug": "quantum-power-bank",
+    "description": "Solar-powered 20,000mAh power bank with fast charging. Rugged design for outdoor adventures.",
+    "price": 89.99,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 41,
+    "images": [
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "20,000mAh",
+      "Solar Charging",
+      "USB-C PD",
+      "IPX4 Splash Proof"
+    ],
+    "rating": 4.1,
+    "reviews_count": 442
+  },
+  {
+    "id": "prod_017",
+    "name": "Glacial Sandals",
+    "slug": "glacial-sandals",
+    "description": "Adventure sandals with adjustable straps and rugged outsoles. Perfect for river crossings and camp.",
+    "price": 79.99,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 91,
+    "images": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Quick-Dry Straps",
+      "Toe Protection",
+      "EVA Footbed",
+      "Non-Marking Sole"
+    ],
+    "rating": 4.2,
+    "reviews_count": 192
+  },
+  {
+    "id": "prod_018",
+    "name": "Solar Lantern",
+    "slug": "solar-lantern",
+    "description": "Collapsible solar-powered lantern with multiple brightness settings. Great for camping and emergencies.",
+    "price": 34.99,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 46,
+    "images": [
+      "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Solar Powered",
+      "Collapsible",
+      "USB Charging",
+      "3 Light Modes"
+    ],
+    "rating": 4.7,
+    "reviews_count": 167
+  },
+  {
+    "id": "prod_019",
+    "name": "Titanium Compass",
+    "slug": "titanium-compass",
+    "description": "Precision sighting compass with declination adjustment. Durable titanium housing for reliability.",
+    "price": 65.0,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 59,
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Sighting Mirror",
+      "Declination Adjustment",
+      "Luminous Dial",
+      "Lanyard Included"
+    ],
+    "rating": 4.7,
+    "reviews_count": 454
+  },
+  {
+    "id": "prod_020",
+    "name": "Titanium Fleece",
+    "slug": "titanium-fleece",
+    "description": "Midweight fleece jacket with excellent warmth-to-weight ratio. Perfect layering piece for any adventure.",
+    "price": 129.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 18,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Polartec Fleece",
+      "Full Zip",
+      "Zippered Pockets",
+      "Flatlock Seams"
+    ],
+    "rating": 4.6,
+    "reviews_count": 167
+  },
+  {
+    "id": "prod_021",
+    "name": "Tactical Hammock",
+    "slug": "tactical-hammock",
+    "description": "Lightweight camping hammock with bug net and rain fly. Complete sleep system under 2 lbs.",
+    "price": 149.0,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 69,
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Integrated Bug Net",
+      "Rain Fly Included",
+      "Under 2 lbs",
+      "Ripstop Nylon"
+    ],
+    "rating": 4.4,
+    "reviews_count": 295
+  },
+  {
+    "id": "prod_022",
+    "name": "Aero Water Sandals",
+    "slug": "aero-water-sandals",
+    "description": "Quick-drying water sandals with secure heel strap. Ideal for kayaking, beach, and water activities.",
+    "price": 64.99,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 44,
+    "images": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Quick-Dry Design",
+      "Heel Strap",
+      "Drainage Ports",
+      "Anti-Slip Sole"
+    ],
+    "rating": 4.3,
+    "reviews_count": 276
+  },
+  {
+    "id": "prod_023",
+    "name": "Glacial Drone",
+    "slug": "glacial-drone",
+    "description": "Foldable 4K drone with GPS and obstacle avoidance. Capture stunning aerial footage of your adventures.",
+    "price": 421.87,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 40,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "4K Camera",
+      "GPS Return Home",
+      "30min Flight Time",
+      "Obstacle Avoidance"
+    ],
+    "rating": 4.4,
+    "reviews_count": 396
+  },
+  {
+    "id": "prod_024",
+    "name": "Vortex Beanie",
+    "slug": "vortex-beanie",
+    "description": "Merino wool beanie with fleece lining for extra warmth. Classic style that works on trail or in town.",
+    "price": 35.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 67,
+    "images": [
+      "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Merino Wool",
+      "Fleece Lined",
+      "Odor Resistant",
+      "One Size Fits Most"
+    ],
+    "rating": 4.6,
+    "reviews_count": 338
+  },
+  {
+    "id": "prod_025",
+    "name": "Aero Tent",
+    "slug": "aero-tent",
+    "description": "Ultralight 2-person tent with full rain fly. Freestanding design for versatile camping.",
+    "price": 299.0,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 90,
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "2-Person",
+      "Freestanding",
+      "Full Rain Fly",
+      "Under 4 lbs"
+    ],
+    "rating": 4.8,
+    "reviews_count": 168
+  },
+  {
+    "id": "prod_026",
+    "name": "Hydro Climbing Shoes",
+    "slug": "hydro-climbing-shoes",
+    "description": "All-around climbing shoes with moderate downturn. Great for gym and outdoor sport climbing.",
+    "price": 159.0,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 83,
+    "images": [
+      "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Vibram XS Edge",
+      "Velcro Closure",
+      "Lined Upper",
+      "Moderate Downturn"
+    ],
+    "rating": 4.8,
+    "reviews_count": 212
+  },
+  {
+    "id": "prod_027",
+    "name": "Zenith Trek Gaiters",
+    "slug": "zenith-trek-gaiters",
+    "description": "Breathable hiking gaiters for trail debris protection. Low-profile design works with any footwear.",
+    "price": 38.0,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 48,
+    "images": [
+      "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Breathable Mesh",
+      "Velcro Closure",
+      "Low Profile",
+      "Universal Fit"
+    ],
+    "rating": 4.2,
+    "reviews_count": 471
+  },
+  {
+    "id": "prod_028",
+    "name": "Solar Sleeping Bag",
+    "slug": "solar-sleeping-bag",
+    "description": "20°F mummy bag with water-resistant down fill. Lightweight and compressible for backpacking.",
+    "price": 275.62,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 63,
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "20°F Rating",
+      "850 Fill Down",
+      "Water Resistant",
+      "Under 2 lbs"
+    ],
+    "rating": 4.2,
+    "reviews_count": 242
+  },
+  {
+    "id": "prod_029",
+    "name": "Zenith Tent",
+    "slug": "zenith-tent",
+    "description": "3-season backpacking tent with dual vestibules. Spacious interior with gear loft included.",
+    "price": 371.81,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 100,
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "3-Season",
+      "Dual Vestibules",
+      "Gear Loft",
+      "Seam Sealed"
+    ],
+    "rating": 4.0,
+    "reviews_count": 418
+  },
+  {
+    "id": "prod_030",
+    "name": "Tactical Gloves",
+    "slug": "tactical-gloves",
+    "description": "Leather palm work gloves with reinforced knuckles. Durable protection for rugged outdoor tasks.",
+    "price": 45.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 10,
+    "images": [
+      "https://images.unsplash.com/photo-1520590979760-e69844fe8388?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Leather Palms",
+      "Reinforced Knuckles",
+      "Breathable Back",
+      "Hook Closure"
+    ],
+    "rating": 4.9,
+    "reviews_count": 272
+  },
+  {
+    "id": "prod_031",
+    "name": "Urban Binoculars",
+    "slug": "urban-binoculars",
+    "description": "10x42 waterproof binoculars with ED glass. Crystal clear optics for wildlife and nature viewing.",
+    "price": 199.0,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 25,
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "10x42 Magnification",
+      "ED Glass",
+      "Waterproof",
+      "Fog Proof"
+    ],
+    "rating": 4.7,
+    "reviews_count": 61
+  },
+  {
+    "id": "prod_032",
+    "name": "Zenith Sleeping Bag",
+    "slug": "zenith-sleeping-bag",
+    "description": "Synthetic insulated sleeping bag rated to 30°F. Budget-friendly option for 3-season camping.",
+    "price": 149.0,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 76,
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "30°F Rating",
+      "Synthetic Fill",
+      "Draft Collar",
+      "Full-Length Zipper"
+    ],
+    "rating": 4.8,
+    "reviews_count": 72
+  },
+  {
+    "id": "prod_033",
+    "name": "Vortex Base Layer",
+    "slug": "vortex-base-layer",
+    "description": "Merino wool base layer top for temperature regulation. Anti-odor properties for multi-day use.",
+    "price": 89.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 88,
+    "images": [
+      "https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Merino Wool",
+      "Anti-Odor",
+      "Moisture Wicking",
+      "Flatlock Seams"
+    ],
+    "rating": 4.7,
+    "reviews_count": 154
+  },
+  {
+    "id": "prod_034",
+    "name": "Apex Parka",
+    "slug": "apex-parka",
+    "description": "Expedition-grade down parka rated to -40°F. Ultimate warmth for extreme cold conditions.",
+    "price": 494.72,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 42,
+    "images": [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "-40°F Rating",
+      "900 Fill Down",
+      "Fur-Trimmed Hood",
+      "Expedition Grade"
+    ],
+    "rating": 4.5,
+    "reviews_count": 120
+  },
+  {
+    "id": "prod_035",
+    "name": "Aurora Ankle Gaiters",
+    "slug": "aurora-ankle-gaiters",
+    "description": "Lightweight ankle gaiters for trail running and hiking. Keeps rocks and debris out of shoes.",
+    "price": 28.0,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 69,
+    "images": [
+      "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Lightweight",
+      "Velcro Attach",
+      "Reflective Details",
+      "Machine Washable"
+    ],
+    "rating": 4.5,
+    "reviews_count": 433
+  },
+  {
+    "id": "prod_036",
+    "name": "Stellar Hiking Boots",
+    "slug": "stellar-hiking-boots",
+    "description": "Waterproof mid-cut hiking boots with superior ankle support. Designed for heavy loads and rough terrain.",
+    "price": 189.0,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 65,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Waterproof Leather",
+      "Vibram Sole",
+      "Ankle Support",
+      "EVA Midsole"
+    ],
+    "rating": 4.0,
+    "reviews_count": 390
+  },
+  {
+    "id": "prod_037",
+    "name": "Nomad Winter Boots",
+    "slug": "nomad-winter-boots",
+    "description": "Insulated winter boots rated to -25°F with excellent traction. Essential for cold weather adventures.",
+    "price": 158.44,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 33,
+    "images": [
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "-25°F Rating",
+      "400g Insulation",
+      "Ice Traction",
+      "Waterproof"
+    ],
+    "rating": 4.7,
+    "reviews_count": 355
+  },
+  {
+    "id": "prod_038",
+    "name": "Alpine Gloves",
+    "slug": "alpine-gloves",
+    "description": "Ski gloves with Gore-Tex insert and Primaloft insulation. Warm, waterproof, and breathable.",
+    "price": 89.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 75,
+    "images": [
+      "https://images.unsplash.com/photo-1520590979760-e69844fe8388?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Gore-Tex",
+      "PrimaLoft Insulation",
+      "Leather Palms",
+      "Wrist Cinch"
+    ],
+    "rating": 4.1,
+    "reviews_count": 372
+  },
+  {
+    "id": "prod_039",
+    "name": "Sonic Jacket",
+    "slug": "sonic-jacket",
+    "description": "Lightweight windbreaker with water-resistant finish. Perfect for unpredictable weather conditions.",
+    "price": 119.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 32,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Windproof",
+      "Water Resistant",
+      "Packable",
+      "Reflective Details"
+    ],
+    "rating": 4.0,
+    "reviews_count": 41
+  },
+  {
+    "id": "prod_040",
+    "name": "Aurora Solar Charger",
+    "slug": "aurora-solar-charger",
+    "description": "Foldable solar panel with 21W output. Charges devices directly from the sun on the go.",
+    "price": 79.99,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 7,
+    "images": [
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "21W Output",
+      "Foldable Design",
+      "USB-A & USB-C",
+      "Weather Resistant"
+    ],
+    "rating": 5.0,
+    "reviews_count": 277
+  },
+  {
+    "id": "prod_041",
+    "name": "Zenith Sandals",
+    "slug": "zenith-sandals",
+    "description": "Rugged outdoor sandals with multi-directional tread. Comfortable for all-day wear on any terrain.",
+    "price": 81.99,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 27,
+    "images": [
+      "https://images.unsplash.com/photo-1603487742131-4160ec999306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Multi-Terrain Tread",
+      "Adjustable Straps",
+      "Arch Support",
+      "Quick Dry"
+    ],
+    "rating": 4.0,
+    "reviews_count": 428
+  },
+  {
+    "id": "prod_042",
+    "name": "Zenith Lunar Gaiters",
+    "slug": "zenith-lunar-gaiters",
+    "description": "Full-length mountaineering gaiters with crampon compatibility. Essential for alpine adventures.",
+    "price": 89.0,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 74,
+    "images": [
+      "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Crampon Compatible",
+      "Full Length",
+      "Reinforced Lower",
+      "Zip + Velcro"
+    ],
+    "rating": 4.5,
+    "reviews_count": 493
+  },
+  {
+    "id": "prod_043",
+    "name": "Quantum Noise-Cancelling Headphones",
+    "slug": "quantum-noise-cancelling-headphones",
+    "description": "Premium wireless headphones with active noise cancellation. 30-hour battery life for long trips.",
+    "price": 281.29,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 21,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Active ANC",
+      "30hr Battery",
+      "Bluetooth 5.2",
+      "Foldable Design"
+    ],
+    "rating": 4.8,
+    "reviews_count": 318
+  },
+  {
+    "id": "prod_044",
+    "name": "Urban Fleece",
+    "slug": "urban-fleece",
+    "description": "Classic fleece pullover with zip neck. Versatile layering piece for outdoor and everyday wear.",
+    "price": 79.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 17,
+    "images": [
+      "https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Half Zip",
+      "Fleece Lined",
+      "Kangaroo Pocket",
+      "Elastic Cuffs"
+    ],
+    "rating": 4.9,
+    "reviews_count": 58
+  },
+  {
+    "id": "prod_045",
+    "name": "Stellar Sensor",
+    "slug": "stellar-sensor",
+    "description": "Multi-function outdoor sensor measuring altitude, barometric pressure, and temperature.",
+    "price": 162.15,
+    "currency": "USD",
+    "category_id": "cat_tech",
+    "stock": 21,
+    "images": [
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Altimeter",
+      "Barometer",
+      "Thermometer",
+      "Storm Alert"
+    ],
+    "rating": 4.8,
+    "reviews_count": 64
+  },
+  {
+    "id": "prod_046",
+    "name": "Carbon Trail Runners Pro",
+    "slug": "carbon-trail-runners-pro",
+    "description": "Elite trail running shoes with carbon fiber plate for maximum energy return on technical terrain.",
+    "price": 296.38,
+    "currency": "USD",
+    "category_id": "cat_footwear",
+    "stock": 74,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Carbon Fiber Plate",
+      "Vibram Megagrip",
+      "Foam Midsole",
+      "Gusseted Tongue"
+    ],
+    "rating": 4.6,
+    "reviews_count": 83
+  },
+  {
+    "id": "prod_047",
+    "name": "Aero Jacket",
+    "slug": "aero-jacket",
+    "description": "Ultralight insulated jacket with water-resistant shell. Perfect for fast-and-light adventures.",
+    "price": 148.52,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 81,
+    "images": [
+      "https://images.unsplash.com/photo-1544923246-77307dd654cb?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "PrimaLoft Active",
+      "Water Resistant",
+      "Packable",
+      "Under 8 oz"
+    ],
+    "rating": 4.9,
+    "reviews_count": 295
+  },
+  {
+    "id": "prod_048",
+    "name": "Hydro Binoculars",
+    "slug": "hydro-binoculars",
+    "description": "Compact 8x32 binoculars with excellent low-light performance. Nitrogen-filled and waterproof.",
+    "price": 299.0,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 13,
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "8x32 Compact",
+      "Phase Coated",
+      "Nitrogen Filled",
+      "Low-Light Optimized"
+    ],
+    "rating": 4.5,
+    "reviews_count": 233
+  },
+  {
+    "id": "prod_049",
+    "name": "Zenith Cooler",
+    "slug": "zenith-cooler",
+    "description": "Rotomolded cooler with 5-day ice retention. Bear-resistant and built to last a lifetime.",
+    "price": 303.14,
+    "currency": "USD",
+    "category_id": "cat_outdoor",
+    "stock": 87,
+    "images": [
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "5-Day Ice Retention",
+      "Bear Resistant",
+      "Rotomolded",
+      "Lifetime Warranty"
+    ],
+    "rating": 4.5,
+    "reviews_count": 417
+  },
+  {
+    "id": "prod_050",
+    "name": "Nomad Rain Shell",
+    "slug": "nomad-rain-shell",
+    "description": "Minimalist rain jacket that packs into its own pocket. Essential emergency layer for any pack.",
+    "price": 99.0,
+    "currency": "USD",
+    "category_id": "cat_apparel",
+    "stock": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&q=80"
+    ],
+    "features": [
+      "Packs Into Pocket",
+      "Waterproof",
+      "Sealed Seams",
+      "Under 6 oz"
+    ],
+    "rating": 4.4,
+    "reviews_count": 388
+  }
+]

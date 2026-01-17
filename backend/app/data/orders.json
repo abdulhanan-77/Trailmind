@@ -1,0 +1,19 @@
+[
+    {
+        "id": "order_789012",
+        "user_id": "user_001",
+        "status": "shipped",
+        "items": [
+            {
+                "product_id": "prod_001",
+                "quantity": 1,
+                "price_at_purchase": 249.99
+            }
+        ],
+        "total": 249.99,
+        "currency": "USD",
+        "shipping_address": "123 Adventure Lane, Boulder, CO",
+        "tracking_number": "TRK123456789",
+        "created_at": "2024-01-15T14:30:00Z"
+    }
+]

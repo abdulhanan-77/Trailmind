@@ -1,0 +1,30 @@
+[
+    {
+        "id": "cat_outdoor",
+        "name": "Outdoor",
+        "slug": "outdoor",
+        "description": "Premium gear for the wildest adventures.",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": "cat_tech",
+        "name": "Technology",
+        "slug": "technology",
+        "description": "Cutting-edge gadgets for the modern explorer.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": "cat_footwear",
+        "name": "Footwear",
+        "slug": "footwear",
+        "description": "Durable boots and shoes for every terrain.",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "id": "cat_apparel",
+        "name": "Apparel",
+        "slug": "apparel",
+        "description": "High-performance clothing for all seasons.",
+        "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=800&q=80"
+    }
+]
