@@ -1,4 +1,4 @@
-# 🛒 AI E-commerce Agent
+# AI E-commerce Agent
 
 A sophisticated multi-agent AI ecosystem for e-commerce, featuring a **Next.js 16** frontend and a **FastAPI** backend orchestrating **LangGraph** agents. This platform delivers an autonomous shopping experience with conversational AI assistance, personalized recommendations, and secure payment processing.
 
@@ -10,7 +10,7 @@ A sophisticated multi-agent AI ecosystem for e-commerce, featuring a **Next.js 1
 
 ---
 
-## 🤖 AI Features
+## AI Features
 
 ### Multi-Agent Architecture
 
@@ -18,47 +18,47 @@ Our platform uses a **LangGraph-powered multi-agent system** where specialized A
 
 | Agent | Description |
 |-------|-------------|
-| **🎯 Supervisor** | Intelligent router that analyzes user intent and delegates to the appropriate specialist agent |
-| **🛍️ Shopping Concierge** | Product discovery expert with RAG capabilities - handles "show me...", "I need...", product searches and recommendations |
-| **🔬 Deep Researcher** | Comparative analysis specialist - handles "is X better than Y?", product comparisons, and market research |
-| **💬 Support Agent** | Post-purchase specialist - handles order status, returns, shipping inquiries |
-| **💳 Transactional Agent** | Secure purchase handler with Human-in-the-Loop (HITL) confirmation for payment authorization |
-| **🎁 Retention Agent** | Proactive engagement - triggers personalized offers and discounts for hesitant shoppers |
+| **Supervisor** | Intelligent router that analyzes user intent and delegates to the appropriate specialist agent |
+| **Shopping Concierge** | Product discovery expert with RAG capabilities - handles "show me...", "I need...", product searches and recommendations |
+| **Deep Researcher** | Comparative analysis specialist - handles "is X better than Y?", product comparisons, and market research |
+| **Support Agent** | Post-purchase specialist - handles order status, returns, shipping inquiries |
+| **Transactional Agent** | Secure purchase handler with Human-in-the-Loop (HITL) confirmation for payment authorization |
+| **Retention Agent** | Proactive engagement - triggers personalized offers and discounts for hesitant shoppers |
 
 ### AI Capabilities
 
-- **🔍 Semantic Product Search**: AI understands natural language queries like "waterproof hiking boots under $150"
-- **💡 Smart Recommendations**: Context-aware suggestions based on browsing history and conversation
-- **📊 Product Comparisons**: Deep analysis of product features, pricing, and value propositions
-- **🛡️ Secure Transactions**: Agent Payments Protocol (AP2) with mandatory human confirmation
-- **🎯 Intent Recognition**: Automatic routing to specialized agents based on user needs
-- **💬 Conversational Context**: Maintains conversation history for coherent multi-turn interactions
+- **Semantic Product Search**: AI understands natural language queries like "waterproof hiking boots under $150"
+- **Smart Recommendations**: Context-aware suggestions based on browsing history and conversation
+- **Product Comparisons**: Deep analysis of product features, pricing, and value propositions
+- **Secure Transactions**: Agent Payments Protocol (AP2) with mandatory human confirmation
+- **Intent Recognition**: Automatic routing to specialized agents based on user needs
+- **Conversational Context**: Maintains conversation history for coherent multi-turn interactions
 
 ### 3D Product Showcase
 
-- **🎮 Interactive 3D Viewer**: Three.js-powered product visualization with `@react-three/fiber`
-- **🖱️ Orbital Controls**: Rotate, zoom, and pan products with intuitive mouse/touch controls
-- **✨ Studio Lighting**: Professional lighting setup for realistic product presentation
-- **📱 Responsive Design**: Optimized for desktop and mobile experiences
+- **Interactive 3D Viewer**: Three.js-powered product visualization with `@react-three/fiber`
+- **Orbital Controls**: Rotate, zoom, and pan products with intuitive mouse/touch controls
+- **Studio Lighting**: Professional lighting setup for realistic product presentation
+- **Responsive Design**: Optimized for desktop and mobile experiences
 
 ---
 
-## 🚀 Coming Soon - AI Features Roadmap
+## Coming Soon - AI Features Roadmap
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| **🔊 Voice Shopping** | Natural voice commands for hands-free shopping | 🔄 Planned |
-| **📷 Visual Search** | Upload an image to find similar products | 🔄 Planned |
-| **👤 Personalized Bundles** | AI-curated product bundles based on user preferences | 🔄 Planned |
-| **🌐 Multi-language Support** | AI conversations in 20+ languages | 🔄 Planned |
-| **📈 Predictive Analytics** | "You might run out of X" proactive notifications | 🔄 Planned |
-| **🎨 AR Try-On** | Augmented reality product preview | 🔄 Planned |
-| **💰 Dynamic Pricing** | AI-optimized pricing based on demand and inventory | 🔄 Planned |
-| **🤝 Tavily Integration** | Real-time web search for competitor pricing | 🔄 Planned |
+| **Voice Shopping** | Natural voice commands for hands-free shopping | Planned |
+| **Visual Search** | Upload an image to find similar products | Planned |
+| **Personalized Bundles** | AI-curated product bundles based on user preferences | Planned |
+| **Multi-language Support** | AI conversations in 20+ languages | Planned |
+| **Predictive Analytics** | "You might run out of X" proactive notifications | Planned |
+| **AR Try-On** | Augmented reality product preview | Planned |
+| **Dynamic Pricing** | AI-optimized pricing based on demand and inventory | Planned |
+| **Tavily Integration** | Real-time web search for competitor pricing | Planned |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI** - High-performance async API framework
@@ -81,7 +81,7 @@ Our platform uses a **LangGraph-powered multi-agent system** where specialized A
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Node.js** 18+ and npm
 - **Python** 3.11+
@@ -90,7 +90,7 @@ Our platform uses a **LangGraph-powered multi-agent system** where specialized A
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -142,26 +142,26 @@ The frontend will be available at `http://localhost:3000`
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Copy `backend/.env.example` to `backend/.env` and configure:
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `OPENROUTER_API_KEY` | ✅ | Your OpenRouter API key |
-| `OPENROUTER_MODEL` | ❌ | LLM model (default: `meta-llama/llama-3.1-70b-instruct`) |
-| `JWT_SECRET` | ✅ | Secret key for JWT token signing |
-| `PROJECT_NAME` | ❌ | Application name (default: `AI_Ecommerce_Agent`) |
-| `API_V1_STR` | ❌ | API prefix (default: `/api/v1`) |
-| `CORS_ORIGINS` | ❌ | Allowed origins (default: `["http://localhost:3000"]`) |
-| `STRIPE_SECRET_KEY` | ❌ | Stripe secret key (for checkout) |
-| `STRIPE_PUBLISHABLE_KEY` | ❌ | Stripe publishable key (for checkout) |
+| `OPENROUTER_API_KEY` | Yes | Your OpenRouter API key |
+| `OPENROUTER_MODEL` | No | LLM model (default: `meta-llama/llama-3.1-70b-instruct`) |
+| `JWT_SECRET` | Yes | Secret key for JWT token signing |
+| `PROJECT_NAME` | No | Application name (default: `AI_Ecommerce_Agent`) |
+| `API_V1_STR` | No | API prefix (default: `/api/v1`) |
+| `CORS_ORIGINS` | No | Allowed origins (default: `["http://localhost:3000"]`) |
+| `STRIPE_SECRET_KEY` | No | Stripe secret key (for checkout) |
+| `STRIPE_PUBLISHABLE_KEY` | No | Stripe publishable key (for checkout) |
 
-> ⚠️ **Security Warning**: Never commit your `.env` file. It's already in `.gitignore`.
+> **Security Warning**: Never commit your `.env` file. It's already in `.gitignore`.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai_ecommerce/
@@ -202,7 +202,7 @@ ai_ecommerce/
 
 ---
 
-## 🧪 API Endpoints
+## API Endpoints
 
 ### Chat & AI
 - `POST /api/v1/chat` - Send message to AI agent system
@@ -223,13 +223,13 @@ ai_ecommerce/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -238,9 +238,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-<p align="center">
-  Built with ❤️ using AI-powered development
-</p>
