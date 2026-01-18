@@ -35,13 +35,24 @@ const MessageIcon = () => (
         <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
     </svg>
 );
+const TrashIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M3 6h18" />
+        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" />
+        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+        <line x1="10" x2="10" y1="11" y2="17" />
+        <line x1="14" x2="14" y1="11" y2="17" />
+    </svg>
+);
 
 interface Product {
     id: string;
     name: string;
     price: number;
     description: string;
-    features: string[];
+    features?: string[];
+    slug?: string;
+    url?: string;
 }
 
 // Extended to support agent commands
@@ -73,6 +84,7 @@ export default function ChatOverlay() {
     const [messages, setMessages] = useState<Message[]>([
         { role: 'agent', content: "Hello! I'm your AI Concierge. How can I help you today? I can also control the 3D viewer - just ask me to show you different angles!" }
     ]);
+    const [sessionId, setSessionId] = useState<string>('default_thread');
     const [input, setInput] = useState('');
     const [loading, setLoading] = useState(false);
     const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -84,6 +96,28 @@ export default function ChatOverlay() {
     useEffect(() => {
         if (isChatOpen) scrollToBottom();
     }, [messages, isChatOpen]);
+
+    const clearChat = async () => {
+        if (window.confirm("Clear chat history and reset context?")) {
+            setLoading(true);
+            try {
+                await fetch(`${API_BASE_URL}/chat/clear`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ session_id: sessionId })
+                });
+                // Generate a new unique session ID
+                setSessionId(`thread_${Math.random().toString(36).substring(7)}_${Date.now()}`);
+                setMessages([
+                    { role: 'agent', content: "Chat cleared. How can I help you afresh?" }
+                ]);
+            } catch (error) {
+                console.error("Failed to clear chat", error);
+            } finally {
+                setLoading(false);
+            }
+        }
+    };
 
     const sendMessage = async () => {
         if (!input.trim()) return;
@@ -97,7 +131,10 @@ export default function ChatOverlay() {
             const res = await fetch(`${API_BASE_URL}/chat/message`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: userMsg.content })
+                body: JSON.stringify({
+                    message: userMsg.content,
+                    session_id: sessionId
+                })
             });
 
             const data = await res.json();
@@ -159,9 +196,18 @@ export default function ChatOverlay() {
                             </p>
                         </div>
                     </div>
-                    <button onClick={closeChat} className="p-2 hover:bg-slate-100 rounded-full transition-colors text-slate-400">
-                        <CloseIcon />
-                    </button>
+                    <div className="flex items-center gap-1">
+                        <button
+                            onClick={clearChat}
+                            title="Clear Chat"
+                            className="p-2 hover:bg-red-50 hover:text-red-500 rounded-full transition-colors text-slate-400"
+                        >
+                            <TrashIcon />
+                        </button>
+                        <button onClick={closeChat} className="p-2 hover:bg-slate-100 rounded-full transition-colors text-slate-400">
+                            <CloseIcon />
+                        </button>
+                    </div>
                 </div>
 
                 {/* Messages */}
@@ -183,7 +229,16 @@ export default function ChatOverlay() {
                                                 <p className="text-xs text-slate-500 mt-1">{p.description}</p>
                                                 <div className="mt-2 flex justify-between items-center">
                                                     <span className="font-bold text-blue-600 text-sm">${p.price}</span>
-                                                    <button className="text-xs bg-white border border-slate-200 px-2 py-1 rounded-lg hover:bg-slate-50">
+                                                    <button
+                                                        onClick={() => {
+                                                            if (p.slug) {
+                                                                window.location.href = `/product/${p.slug}`;
+                                                            } else if (p.url) {
+                                                                window.open(p.url, '_blank');
+                                                            }
+                                                        }}
+                                                        className="text-xs bg-white border border-slate-200 px-2 py-1 rounded-lg hover:bg-slate-50"
+                                                    >
                                                         View
                                                     </button>
                                                 </div>

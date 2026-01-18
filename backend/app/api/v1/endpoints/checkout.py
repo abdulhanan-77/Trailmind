@@ -3,16 +3,16 @@ Stripe Checkout API Endpoints
 Handles payment processing with Stripe in test mode.
 """
 
-import os
 from typing import List, Optional
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+from app.core.config import settings
 import stripe
 
 # ========================================
 # 🔧 Configuration
 # ========================================
-stripe.api_key = os.getenv("STRIPE_SECRET_KEY", "")
+stripe.api_key = settings.STRIPE_SECRET_KEY
 
 router = APIRouter()
 
@@ -128,7 +128,7 @@ async def get_stripe_config():
     """
     Return the Stripe publishable key for frontend initialization.
     """
-    publishable_key = os.getenv("STRIPE_PUBLISHABLE_KEY", "")
+    publishable_key = settings.STRIPE_PUBLISHABLE_KEY
     
     if not publishable_key:
         raise HTTPException(

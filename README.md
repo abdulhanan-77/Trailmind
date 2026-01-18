@@ -16,14 +16,14 @@ A sophisticated multi-agent AI ecosystem for e-commerce, featuring a **Next.js 1
 
 Our platform uses a **LangGraph-powered multi-agent system** where specialized AI agents collaborate to provide the best shopping experience:
 
-| Agent | Description |
-|-------|-------------|
-| **Supervisor** | Intelligent router that analyzes user intent and delegates to the appropriate specialist agent |
-| **Shopping Concierge** | Product discovery expert with RAG capabilities - handles "show me...", "I need...", product searches and recommendations |
-| **Deep Researcher** | Comparative analysis specialist - handles "is X better than Y?", product comparisons, and market research |
-| **Support Agent** | Post-purchase specialist - handles order status, returns, shipping inquiries |
-| **Transactional Agent** | Secure purchase handler with Human-in-the-Loop (HITL) confirmation for payment authorization |
-| **Retention Agent** | Proactive engagement - triggers personalized offers and discounts for hesitant shoppers |
+| Agent                         | Description                                                                                                              |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Supervisor**          | Intelligent router that analyzes user intent and delegates to the appropriate specialist agent                           |
+| **Shopping Concierge**  | Product discovery expert with RAG capabilities - handles "show me...", "I need...", product searches and recommendations |
+| **Deep Researcher**     | Comparative analysis specialist - handles "is X better than Y?", product comparisons, and market research                |
+| **Support Agent**       | Post-purchase specialist - handles order status, returns, shipping inquiries                                             |
+| **Transactional Agent** | Secure purchase handler with Human-in-the-Loop (HITL) confirmation for payment authorization                             |
+| **Retention Agent**     | Proactive engagement - triggers personalized offers and discounts for hesitant shoppers                                  |
 
 ### AI Capabilities
 
@@ -45,22 +45,23 @@ Our platform uses a **LangGraph-powered multi-agent system** where specialized A
 
 ## Coming Soon - AI Features Roadmap
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| **Voice Shopping** | Natural voice commands for hands-free shopping | Planned |
-| **Visual Search** | Upload an image to find similar products | Planned |
-| **Personalized Bundles** | AI-curated product bundles based on user preferences | Planned |
-| **Multi-language Support** | AI conversations in 20+ languages | Planned |
-| **Predictive Analytics** | "You might run out of X" proactive notifications | Planned |
-| **AR Try-On** | Augmented reality product preview | Planned |
-| **Dynamic Pricing** | AI-optimized pricing based on demand and inventory | Planned |
-| **Tavily Integration** | Real-time web search for competitor pricing | Planned |
+| Feature                          | Description                                          | Status  |
+| -------------------------------- | ---------------------------------------------------- | ------- |
+| **Voice Shopping**         | Natural voice commands for hands-free shopping       | Planned |
+| **Visual Search**          | Upload an image to find similar products             | Planned |
+| **Personalized Bundles**   | AI-curated product bundles based on user preferences | Planned |
+| **Multi-language Support** | AI conversations in 20+ languages                    | Planned |
+| **Predictive Analytics**   | "You might run out of X" proactive notifications     | Planned |
+| **AR Try-On**              | Augmented reality product preview                    | Planned |
+| **Dynamic Pricing**        | AI-optimized pricing based on demand and inventory   | Planned |
+| **Tavily Integration**     | Real-time web search for competitor pricing          | Planned |
 
 ---
 
 ## Tech Stack
 
 ### Backend
+
 - **FastAPI** - High-performance async API framework
 - **LangChain** - LLM orchestration and tool integration
 - **LangGraph** - Multi-agent workflow management
@@ -70,6 +71,7 @@ Our platform uses a **LangGraph-powered multi-agent system** where specialized A
 - **OpenRouter** - LLM API gateway (supports multiple models)
 
 ### Frontend
+
 - **Next.js 16** - React framework with App Router
 - **React 19** - UI library with concurrent features
 - **TypeScript** - Type-safe development
@@ -95,7 +97,7 @@ Our platform uses a **LangGraph-powered multi-agent system** where specialized A
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-ecommerce.git
+git clone https://github.com/abdulhanan-77/Trailmind.git
 cd ai-ecommerce
 ```
 
@@ -146,16 +148,16 @@ The frontend will be available at `http://localhost:3000`
 
 Copy `backend/.env.example` to `backend/.env` and configure:
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `OPENROUTER_API_KEY` | Yes | Your OpenRouter API key |
-| `OPENROUTER_MODEL` | No | LLM model (default: `meta-llama/llama-3.1-70b-instruct`) |
-| `JWT_SECRET` | Yes | Secret key for JWT token signing |
-| `PROJECT_NAME` | No | Application name (default: `AI_Ecommerce_Agent`) |
-| `API_V1_STR` | No | API prefix (default: `/api/v1`) |
-| `CORS_ORIGINS` | No | Allowed origins (default: `["http://localhost:3000"]`) |
-| `STRIPE_SECRET_KEY` | No | Stripe secret key (for checkout) |
-| `STRIPE_PUBLISHABLE_KEY` | No | Stripe publishable key (for checkout) |
+| Variable                   | Required | Description                                               |
+| -------------------------- | -------- | --------------------------------------------------------- |
+| `OPENROUTER_API_KEY`     | Yes      | Your OpenRouter API key                                   |
+| `OPENROUTER_MODEL`       | No       | LLM model (default:`meta-llama/llama-3.1-70b-instruct`) |
+| `JWT_SECRET`             | Yes      | Secret key for JWT token signing                          |
+| `PROJECT_NAME`           | No       | Application name (default:`AI_Ecommerce_Agent`)         |
+| `API_V1_STR`             | No       | API prefix (default:`/api/v1`)                          |
+| `CORS_ORIGINS`           | No       | Allowed origins (default:`["http://localhost:3000"]`)   |
+| `STRIPE_SECRET_KEY`      | No       | Stripe secret key (for checkout)                          |
+| `STRIPE_PUBLISHABLE_KEY` | No       | Stripe publishable key (for checkout)                     |
 
 > **Security Warning**: Never commit your `.env` file. It's already in `.gitignore`.
 
@@ -205,19 +207,23 @@ ai_ecommerce/
 ## API Endpoints
 
 ### Chat & AI
+
 - `POST /api/v1/chat` - Send message to AI agent system
 - `POST /api/v1/chat/resume` - Resume interrupted transaction
 
 ### Products
+
 - `GET /api/v1/products` - List all products
 - `GET /api/v1/products/{id}` - Get product details
 - `GET /api/v1/products/search?q={query}` - Search products
 
 ### Checkout (Stripe)
+
 - `POST /api/v1/checkout/create-session` - Create Stripe checkout session
 - `GET /api/v1/checkout/config` - Get Stripe publishable key
 
 ### Authentication
+
 - `POST /api/v1/auth/login` - User login
 - `POST /api/v1/auth/register` - User registration
 

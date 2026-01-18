@@ -1,7 +1,26 @@
-from fastapi import APIRouter, Depends
-from typing import Dict, Any
+from fastapi import APIRouter, Depends, HTTPException
+from typing import Dict, Any, Optional
+from app.graph import app_graph
 
 router = APIRouter()
+
+@router.post("/clear")
+async def clear_chat(payload: Dict[str, Any]):
+    """
+    Clear the chat thread context.
+    Accepts: { "session_id": "uuid" }
+    """
+    thread_id = payload.get("session_id", "default_thread")
+    config = {"configurable": {"thread_id": thread_id}}
+    
+    try:
+        # To "clear" in LangGraph with MemorySaver, we can effectively reset by overwriting the state
+        # with an empty list of messages, or just rely on the frontend to generate a NEW session_id.
+        # However, to truly clear the checkpointer's memory for that ID:
+        await app_graph.aupdate_state(config, {"messages": [], "final_response": None})
+        return {"status": "cleared", "thread_id": thread_id}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to clear chat: {str(e)}")
 
 @router.post("/message")
 async def chat_message(
@@ -15,7 +34,6 @@ async def chat_message(
     user_text = message.get("message", "")
     
     # LangGraph Execution
-    from app.graph import app_graph
     from langchain_core.messages import HumanMessage
     
     # Use session_id as thread_id for persistence
